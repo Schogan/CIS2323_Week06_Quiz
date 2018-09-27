@@ -1,5 +1,5 @@
-import stuff.*;
-import java.util.Scanner;
+import Yahtzee.*;
+import java.util.*;
 
 public class PlayYahtzee{
 	public static void main(String[] args){
@@ -20,7 +20,7 @@ public class PlayYahtzee{
 			inputDevice.nextLine();
 			
 			if (choice == 'r'){
-				game.roll();
+				System.out.println(game.toss());
 				
 			}
 			if (choice == 'q'){
